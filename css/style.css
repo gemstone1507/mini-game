@@ -1,0 +1,169 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+  background: #222;
+  color: #fff;
+  font-family: 'Roboto', sans-serif; }
+
+html {
+  height: 100%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+div {
+  box-sizing: border-box; }
+
+.container {
+  width: 768px;
+  margin: 0 auto; }
+
+.timer {
+  padding: 25px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Arial', sans-serif;
+  color: #edeb3f; }
+  .timer .timer__counter {
+    width: 25px;
+    height: 50px;
+    padding: 5px;
+    background: #edeb3f;
+    color: #222;
+    border-radius: 3px; }
+
+.score {
+  padding: 25px;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Arial', sans-serif;
+  color: #edeb3f; }
+  .score .score__counter {
+    width: 25px;
+    height: 50px;
+    padding: 5px;
+    background: #edeb3f;
+    color: #222;
+    border-radius: 3px; }
+
+.game__canvas {
+  width: 780px;
+  margin: 0 auto; }
+  .game__canvas .game__canvas--block {
+    float: left;
+    width: 230px;
+    height: 200px;
+    margin-right: 3%;
+    position: relative; }
+    .game__canvas .game__canvas--block .gc__block--person {
+      height: 100px;
+      width: 100px;
+      margin-left: 60px;
+      top: 100px;
+      transition: all 0.5s;
+      position: absolute;
+      cursor: pointer; }
+    .game__canvas .game__canvas--block .gc__block--hole {
+      width: 100%;
+      position: absolute;
+      height: 100px;
+      margin-top: 100px;
+      background: url(../img/texture.jpg) no-repeat center bottom; }
+
+.up {
+  top: 5px !important; }
+
+.btn__start {
+  float: right;
+  right: 10%;
+  top: 30%;
+  position: absolute;
+  width: 150px;
+  padding: 20px;
+  background: #edeb3f;
+  color: #222;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  border-top: 2px solid #ff621f;
+  border-right: 2px solid #ff621f;
+  cursor: pointer; }
+  .btn__start:active {
+    border-bottom: 2px solid #ff621f;
+    border-left: 2px solid #ff621f;
+    border-top: none;
+    border-right: none; }
+
+.btn__stop {
+  float: right;
+  right: 10%;
+  top: 50%;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  width: 150px;
+  padding: 20px;
+  background: #edeb3f;
+  color: #222;
+  border: none;
+  border-top: 2px solid #ff621f;
+  border-right: 2px solid #ff621f;
+  text-align: center;
+  border-radius: 0px;
+  cursor: pointer; }
+  .btn__stop:active {
+    border-bottom: 2px solid #ff621f;
+    border-left: 2px solid #ff621f;
+    border-top: none;
+    border-right: none; }
+
+.choose__person {
+  float: left;
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+  height: 50px;
+  color: #333;
+  font-size: 20px;
+  background: #edeb3f;
+  cursor: pointer;
+  top: 30px;
+  left: 30px; }
+
+.persons__list {
+  float: left;
+  position: absolute;
+  width: 200px;
+  top: 85px;
+  left: 30px; }
+  .persons__list li {
+    list-style: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 10px;
+    background: #edeb3f;
+    color: #222;
+    border-bottom: 1px solid #222; }
+    .persons__list li img {
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin-top: -10px; }
+
+.display__none {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

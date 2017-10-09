@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kick Your Friend</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="choose__person" id="choose__person">
+        Choose Your Hero
+    </div>
+    <div class="persons__list display__none" id="persons__list">
+        <ul>
+            <li data-item='img/gucol.png' class="person__choosen"> <img src="img/gucol.png" alt=""> GoodSoul</li>
+            <li data-item='img/kushko.png' class="person__choosen"><img src="img/kushko.png" alt=""> Misha Ku$$</li>
+            <li data-item='img/naumchuk.png' class="person__choosen"><img src="img/naumchuk.png" alt=""> General Halerman</li>
+            <li data-item='img/procepko.png' class="person__choosen"><img src="img/procepko.png" alt=""> PROcessoR</li>
+            <li data-item='img/vusatiuk.png' class="person__choosen"><img src="img/vusatiuk.png" alt=""> Polska KURWA</li>
+            <li data-item='img/fuck.png' class="person__choosen"><img src="img/fuck.png" alt=""> Fuck</li>
+        </ul>
+    </div>
+    <input type="button" value="Start" class="btn__start" id="btn_start">
+    <input type="button" value="Stop" class="btn__stop" id="btn_stop">
+    
+
+    <div class="timer">
+        <div class="container">
+            <p>Time to end : <span class="timer__counter" id="timer">60</span></p>
+        </div>
+    </div>
+
+    <div class="score">
+        <div class="container">
+            <p>Score : <span class="score__counter" id="score">0</span> </p>
+        </div>
+    </div>
+
+
+    <div class="game__canvas">
+        <div class="container">
+           
+            
+
+            <div class="game__canvas--block hole">
+                <img src="img/gucol.png" alt="" class="gc__block--person">
+                <div class="gc__block--hole">
+                </div>
+            </div>
+            <div class="game__canvas--block hole">
+                <img src="img/gucol.png" alt="" class="gc__block--person">
+                <div class="gc__block--hole">
+                </div>
+            </div>
+            <div class="game__canvas--block hole">
+                <img src="img/gucol.png" alt="" class="gc__block--person">
+                <div class="gc__block--hole">
+                </div>
+            </div>
+            <div class="game__canvas--block hole">
+                <img src="img/gucol.png" alt="" class="gc__block--person">
+                <div class="gc__block--hole">
+                </div>
+            </div>
+            <div class="game__canvas--block hole">
+                <img src="img/gucol.png" alt="" class="gc__block--person">
+                <div class="gc__block--hole">
+                </div>
+            </div>
+            <div class="game__canvas--block hole">
+                <img src="img/gucol.png" alt="" class="gc__block--person">
+                <div class="gc__block--hole">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
